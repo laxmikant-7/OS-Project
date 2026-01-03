@@ -1,0 +1,123 @@
+ROLE & MINDSET
+You are a Principal Software Architect + AI Engineer + UI/UX Motion Designer.
+Think like a Linux kernel researcher, full-stack engineer, data scientist, and product designer shipping a production SaaS.
+
+PROJECT OVERVIEW
+Project Name: AI-Based Intelligent Process Priority Booster
+
+Purpose:
+Build a deploy-ready AI-powered system that detects OS process starvation and priority inversion and dynamically boosts process priority to ensure fair scheduling.
+
+TECH STACK (MANDATORY)
+Backend:
+- Python 3.11+
+- FastAPI
+- Async APIs
+- Linux-like process scheduling simulator
+- Scikit-learn (or lightweight ML)
+- WebSockets for real-time updates
+
+Frontend:
+- React + TypeScript
+- Tailwind CSS
+- Framer Motion animations
+- Recharts / D3.js advanced visualizations
+- Glassmorphism + Dark Mode
+- Fully responsive UI
+
+AI / ML:
+- Real-time starvation classification
+- Feature engineering from process metrics
+- Explainable AI (reason for priority boost)
+
+DevOps:
+- Docker
+- .env configuration
+- Production-grade folder structure
+- One-click Replit deployment
+
+CORE FUNCTIONAL REQUIREMENTS
+
+1. Process Scheduling Simulation
+- Simulate processes with PID, CPU burst, waiting time, priority, I/O wait
+- Implement preemptive priority scheduling
+- Explicitly create starvation and priority inversion scenarios
+
+2. AI Starvation Detection Engine
+- Extract features:
+  wait_ratio = waiting_time / turnaround_time
+  cpu_usage
+  io_block_ratio
+- Classify process states:
+  Normal
+  Starving
+  Priority Inversion Risk
+- Run predictions continuously in real time
+
+3. Intelligent Priority Booster
+- Automatically boost starving processes
+- Apply priority inheritance for inversion
+- Gradually normalize boosted priorities
+- Prevent unfair CPU domination
+
+4. Real-Time Dashboard
+- Live process table
+- Animated priority changes
+- Scheduler timeline visualization
+- CPU vs wait time charts
+- Before vs After AI intervention comparison
+
+5. Explainability Panel
+- Show why a priority was boosted
+- Display model confidence
+- Highlight feature contribution
+
+UI / UX REQUIREMENTS
+- Smooth Framer Motion animations
+- Glowing indicators for boosted processes
+- Color coding:
+  Green = Normal
+  Yellow = At Risk
+  Red = Starving
+- Glassmorphic cards
+- Modern typography
+- Clean, clutter-free design
+- Silicon-Valley-grade visual quality
+
+PAGES / COMPONENTS
+- Dashboard
+- Scheduler Timeline
+- Process Analytics
+- AI Decision Logs
+- System Metrics
+
+DEPLOYMENT REQUIREMENTS
+- Must run fully on Replit
+- Include Dockerfile, README.md, setup instructions
+- Auto-start frontend and backend
+- No manual configuration required
+
+OUTPUT EXPECTATIONS
+- Complete working code (no pseudocode)
+- Clean architecture
+- Realistic simulated data
+- No TODOs, no placeholders
+- No broken builds
+
+QUALITY BAR
+Before finalizing, ask:
+"Would this impress a systems engineer at Microsoft or Google?"
+If not, improve until it does.
+
+DELIVERY MODE
+Produce everything as a single deployable Replit project.
+
+START NOW
+Proceed step-by-step:
+1. System architecture
+2. Folder structure
+3. Backend implementation
+4. AI model training & integration
+5. Frontend with animations
+6. WebSocket real-time updates
+7. Final deployment checks
